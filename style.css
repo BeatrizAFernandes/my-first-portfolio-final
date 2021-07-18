@@ -3,8 +3,8 @@
   --color-bg: #f9faff;
   --color-text-primary: #828282;
   --color-text-secondary: #333333;
-  --color-primary: #928DF1;
-  --color-secondary: #FDC435;
+  --color-primary: #FF9966;
+  --color-secondary: #FF6E4A;
 }
 
 /* Basic page style resets */
@@ -77,7 +77,7 @@ h2 {
   background-color: var(--color-primary);
 }
 .header-logo {
-  max-width: 40px;
+  max-width: 50px;
 }
 
 .header-links {
@@ -183,12 +183,12 @@ section {
 
 .project-card-content {
   /*top right bottom left*/
-  padding: 30px 20px 40px 20px;
+  padding: 30px 20px 20px 20px;
 }
 
 .project-card-text {
   font-size: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   /* the properties bellow are needed to limit the amount of text inside the card component */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -228,15 +228,15 @@ section {
 }
 
 .button-primary {
-  color: var(--color-text-secondary) !important;
+  color: white !important;
   background-color: var(--color-secondary);
   border: 1px solid var(--color-secondary);
   border-radius: 8px;
 }
 
 .button-primary:hover {
-  background-color: #e0a800;
-  border-color: #d39e00;
+  background-color: #BD3B1F;
+  border-color: #BD3B1F;
 }
 
 .button-secondary {
@@ -281,17 +281,17 @@ section {
   transform: translateY(-7px);
 }
 
-.instagram {
-  background-image: url(https://cdn.glitch.com/af18722b-fa2c-456f-837b-98ed87df14d9%2Finstagram-icon.png?v=1622026823992);
+.linkedin {
+  background-image: url(C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/social/linkedin.png);
 }
 
 .github {
-  background-image: url(https://cdn.glitch.com/af18722b-fa2c-456f-837b-98ed87df14d9%2Fgithub-icon.png?v=1622026826207);
+  background-image: url(C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/social/github.png);
 }
 
 /* Footer */
 .footer {
-  background-image: url("https://cdn.glitch.com/af18722b-fa2c-456f-837b-98ed87df14d9%2Ffooter.png?v=1622156914890");
+  background-image: url("C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;

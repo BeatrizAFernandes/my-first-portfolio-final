@@ -282,16 +282,16 @@ section {
 }
 
 .linkedin {
-  background-image: url("/assets/social/linkedin.png");
+  background-image: url("C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/social/linkedin.png");
 }
 
 .github {
-  background-image: url("/assets/social/github.png");
+  background-image: url("C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/social/github.png");
 }
 
 /* Footer */
 .footer {
-  background-image: url("/assets/footer.png");
+  background-image: url("C:/Users/Beatriz/Documents/GitHub/my-first-portfolio-final/assets/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
